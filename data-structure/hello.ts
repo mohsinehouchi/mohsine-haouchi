@@ -1,0 +1,27 @@
+let hello="Hello World";
+console.log(hello);
+let firstname= "Mohsine";
+let secondname= "Hawchi";
+console.log( firstname,secondname);
+let ten: number = 10;
+let two: number = 2;
+console.log("10 + 2 =", ten+two);
+console.log("10 - 2 =", ten-two);
+console.log("10 * 2 =", ten*two);
+console.log("10 /2 =", ten/two);
+console.log("10 % 2 =", ten%two);
+let first_name:string = "Hawchi";
+let last_name:string = "Mohsine";
+console.log(`${first_name} ${last_name}`);
+console.log(`My name is : ${first_name} ${last_name}`);
+
+let from_morocco: boolean = true;
+console.log(`Am i from Morocco: ${from_morocco}`);
+console.log(`Am i from US: ${!from_morocco}`);
+let isFals = 5 < 4;
+console.log("isFals=",isFals);
+let thirteen = 13;
+let ten_ = 10;
+let product = thirteen * ten_;
+console.log("13 * 10 =" , product);
+console.log(`13 * 10 = ${product}`);
