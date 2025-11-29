@@ -6,5 +6,7 @@ class Calculator {
   productTwoNumber(first: number, second: number): number {
     return first * second;
   }
-  
+  deviseTwoNumber(first: number, second: number): number {
+    return first / second;
+  }
 }
