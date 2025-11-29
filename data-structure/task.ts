@@ -49,4 +49,7 @@ console.log(`Task 2  duration ${task2.duration}`);
 console.log(`Task 2  description ${task2.description}`);
 console.log(`Task 2  isCompleted ${task2.isCompleted}`);
 console.log(`Task 2  assignedTo ${task2.assignedTo}`);
-2 
+
+task1.completTask();
+console.log(`Task 1 isCompleted ${task1.isCompleted}`);
+
